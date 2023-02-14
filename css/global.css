@@ -100,6 +100,12 @@ ul {
 .grid__item {
     max-width: 25%;
 }
+.container_accueil {
+    margin: 0 auto;
+    padding: 44rem;
+    background-color: rgb(46, 98, 196);
+}
+
 }
 
 /* Header */
@@ -305,7 +311,32 @@ text-align: center;
     }
 }
 
+
 /*Accueil*/
+
+.accueil h1 {
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15rem;
+}
+
+.accueil h2 {
+    font-size: 2rem;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+
+}
+
+.div .accueil {
+}
+/*histoire*/
 
 .histoire {
     color: #000000;
