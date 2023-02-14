@@ -315,7 +315,7 @@ text-align: center;
 /*Accueil*/
 
 .accueil h1 {
-    font-size: 4rem;
+    font-size: 6rem;
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
@@ -324,7 +324,7 @@ text-align: center;
 }
 
 .accueil h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     font-style: italic;
     color: rgb(255, 255, 255);
     display: flex;
