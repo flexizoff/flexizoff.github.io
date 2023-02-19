@@ -14,7 +14,7 @@ body {
     font-family: 'Noto Sans', sans-serif;
     font-size: 1.6rem ;
     color: #131212 ;
-    background: rgb(46, 98, 196);
+    background: rgb(21, 127, 155);
     margin: 0;
     line-height: 1.6;
     margin: 0;
@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 h1,
 .h1 {
     font-size: 4rem;
-    color: rgb(46, 98, 196);
+    color: rgb(21, 127, 155);
 }
 
 h2,
@@ -103,7 +103,7 @@ ul {
 .container_accueil {
     margin: 0 auto;
     padding: 44rem;
-    background-color: rgb(46, 98, 196);
+    background-color: rgb(21, 127, 155);
 }
 
 }
@@ -111,8 +111,8 @@ ul {
 /* Header */
 
 .header {
-    background: rgb(46, 98, 196);
-    border-bottom: 1px solid rgb(46, 98, 196);
+    background: rgb(21, 127, 155);
+    border-bottom: 1px solid rgb(21, 127, 155);
     position:sticky;
     z-index: 3;
     top: 0;
@@ -145,7 +145,7 @@ ul {
 }
 
 a:hover {
-    color: rgb(0, 0, 0);
+    color: rgb(254, 237, 1);
 }
 
 .header .right {
@@ -195,7 +195,7 @@ a:hover {
     content:"";
     width: 22px;
     height: 3px;
-    background: #ffffff;
+    background: rgb(21, 127, 155);
     position: absolute;
 }
 
@@ -217,7 +217,7 @@ a:hover {
         left: 110%;
         width: 0;
         height: calc(100vh - 55px);
-        background: rgb(255, 255, 255);
+        background:rgb(21, 127, 155);
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -233,7 +233,7 @@ a:hover {
         display: block;
         font-size: 2rem;
         padding: 2rem;
-        color: #6FC0C3;
+        color: rgb(254, 237, 1);
         transition: all 0.4s;
     }
     .burger .bar::before, .burger .bar::after {
@@ -316,7 +316,7 @@ text-align: center;
 
 .accueil h1 {
     font-size: 6rem;
-    color: rgb(255, 255, 255);
+    color: rgb(254, 237, 1);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -326,7 +326,7 @@ text-align: center;
 .accueil h2 {
     font-size: 3rem;
     font-style: italic;
-    color: rgb(255, 255, 255);
+    color: rgb(254, 237, 1);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -488,8 +488,8 @@ text-align: center;
 /*Footer*/
 
 footer {
-    color: #ffffff;
-    background: rgb(46, 98, 196);
+    color: rgb(254, 237, 1);
+    background: rgb(21, 127, 155);
     text-align: center;
     font-size: 1.4rem;
 }
