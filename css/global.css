@@ -91,6 +91,31 @@ ul {
     flex-shrink: 0;
 }
 
+@media screen and (max-width:749px) {
+body {
+    background: #FFFFFF;
+}
+h1 {
+    color: rgb(21, 127, 155);
+    font-size: 3rem;
+    margin-top: 4rem;
+    text-align: center;
+    
+}
+h1 .histoire .title {
+    font-size: 3rem;
+}
+.accueil h2 {
+    color: rgb(21, 127, 155);
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+p {
+
+}
+}
+
 @media screen and (min-width:750px) {
 .container {
     max-width: 1200px;
@@ -195,7 +220,7 @@ a:hover {
     content:"";
     width: 22px;
     height: 3px;
-    background: rgb(21, 127, 155);
+    background: rgb(255, 255, 255);
     position: absolute;
 }
 
@@ -213,7 +238,7 @@ a:hover {
         overflow: hidden;
         opacity: 0;
         position: fixed;
-        top: 55px;
+        top: 90px;
         left: 110%;
         width: 0;
         height: calc(100vh - 55px);
@@ -313,7 +338,7 @@ text-align: center;
 
 
 /*Accueil*/
-
+@media screen and (min-width:750px) {
 .accueil h1 {
     font-size: 6rem;
     color: rgb(254, 237, 1);
@@ -333,7 +358,7 @@ text-align: center;
     margin-top: 5rem;
 
 }
-
+}
 .div .accueil {
 }
 /*histoire*/
