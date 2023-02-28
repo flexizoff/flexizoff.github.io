@@ -34,8 +34,9 @@ h1,
 
 h2,
 .h2 {
-    font-size: 2.8rem;
-    text-transform: uppercase;
+    font-size: 2rem;
+    color: rgb(21, 127, 155);
+    margin-right: 10rem;
 }
 
 h3,
