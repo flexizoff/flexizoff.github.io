@@ -124,7 +124,7 @@ p {
     padding: 2rem;
 }
 .grid__item {
-    max-width: 50%;
+    max-width: 33%;
 }
 .container_accueil {
     margin: 0 auto;
