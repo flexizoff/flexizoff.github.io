@@ -140,8 +140,12 @@ li {
 .grid__item {
     max-width: 33%;
 }
-div.grid {
-    align-items: center;
+div.grid a {
+    margin-right: 10rem;
+    margin-left: 10rem;
+}
+div.grid a {
+
 }
 .container_accueil {
     margin: 0 auto;
