@@ -36,7 +36,6 @@ h2,
 .h2 {
     font-size: 2rem;
     color: rgb(21, 127, 155);
-    margin-right: 10rem;
 }
 
 h3,
@@ -112,6 +111,24 @@ h1 .histoire .title {
     font-size: 1.5rem;
 
 }
+p {
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+
+li {
+    margin-left: 2rem;
+}
+.accueil img {
+}
+
+.container_accueil h2 {
+    margin-top: 3rem;
+    color: rgb(254, 237, 1);
+    font-size: 2rem;
+    
+}
 }
 
 @media screen and (min-width:750px) {
@@ -123,11 +140,15 @@ h1 .histoire .title {
 .grid__item {
     max-width: 33%;
 }
+div.grid {
+    align-items: center;
+}
 .container_accueil {
     margin: 0 auto;
     padding: 44rem;
     background-color: rgb(21, 127, 155);
 }
+
 
 }
 
